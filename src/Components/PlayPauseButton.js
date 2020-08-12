@@ -9,7 +9,7 @@ const PlayPauseButton = (props) => {
     }
 
     return (
-        <img src={image} width="50" alt="play-pause-button" onClick={handlePlayPause}/>
+        <img id="playButton" src={image} width="50" alt="play-pause-button" onClick={handlePlayPause}/>
     )
 }
 export default PlayPauseButton;

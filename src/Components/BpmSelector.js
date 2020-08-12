@@ -7,7 +7,7 @@ const BpmSelector = (props) => {
     };
 
     return (
-        <input type="range" min="1" max="300" value={props.bpm} step="1" onChange={handleBpmChange}/>
+        <input id="bpm-bar" type="range" min="1" max="300" value={props.bpm} step="1" onChange={handleBpmChange}/>
     )
 
 }

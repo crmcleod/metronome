@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#playButton{
+  grid-column: 3/4 ;
+  position: relative;
+  width: 100px;
+  margin: 1vw;
+  margin-left: 100px;
+  background-color: white;
+  border-radius: 50px;
+}
+#bpm-bar{
+grid-column: 3/4;
+position: relative;
+width: 700px;
+margin-left: 100px;
+}
+#bpm-disp{
+  position: relative;
+  top:100px;
+  left: 400px;}
